@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 
-from routers import router
+from .routers import router
 
 def get_app() -> FastAPI:
     fast_app = FastAPI()
